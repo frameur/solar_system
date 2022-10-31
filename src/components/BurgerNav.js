@@ -32,7 +32,7 @@ const BurgerNav = () => {
               }}
             >
               <ul>
-                <li>Home</li>
+                <li></li>
               </ul>
             </NavLink>
             <NavLink
@@ -147,7 +147,7 @@ const BurgerNav = () => {
             }}
           >
             <ul>
-              <li>Home</li>
+              <li></li>
             </ul>
           </NavLink>
           <NavLink
