@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-big {
+  font-family: Romul;
+  background-color: #000000b2;
+  height: 80px;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+.nav-big .logo {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.nav-big .logo .logo-icon {
+  width: 50px;
+  color: gold;
+}
+.nav-big .logo .logo-text {
+  margin-left: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+.nav-big .logo .logo-text .small {
+  font-size: small;
+}
+.nav-big .logo .logo-text .big {
+  font-size: large;
+}
+.nav-big span {
+  color: #e8c70c;
+  font-size: 20px;
+  font-weight: 300;
+}
+.nav-big .navigation {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+.nav-big .navigation a,
+span {
+  text-decoration: none;
+  transition: 0.2s ease;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.nav-big .navigation a:hover {
+  cursor: pointer;
+}
+
+.nav-small {
+  font-family: Romul;
+  height: 100px;
+  align-items: center;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #000000b2;
+}
+.nav-small span {
+  color: #e8c70c;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nav-small .logo {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(227, 16, 16);
+  margin-right: 20px;
+}
+.nav-small .logo .logo-icon {
+  width: 60px;
+  display: flex;
+}
+.nav-small .logo .logo-icon .logo-text {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.nav-small .logo .small .logo-text {
+  font-size: small;
+}
+.nav-small .logo .logo-text .big {
+  font-size: large;
+}
+.nav-small .menu-container {
+  position: absolute;
+  left: 10px;
+}
+.nav-small .menu-container .navigation {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 49px;
+  left: calc(-100vw - 10px);
+  height: calc(100vh - 100px);
+  background-color: #000000b2;
+  opacity: 0.9;
+  padding-top: 50px;
+  width: 100vw;
+  min-width: 200px;
+  align-items: center;
+  transition: 0.6s ease;
+}
+.nav-small .menu-container .navigation a {
+  font-size: x-large;
+  color: #e13838;
+  text-decoration: none;
+  transition: 0.2s ease;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.nav-small .menu-container .navigation a:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+.nav-small .change .navigation {
+  transform: translate(100vw);
+}
+
+@media (min-width: 1000px) and (max-width: 50000px) {
+  .nav-big {
+    display: flex;
+  }
+  .nav-small {
+    display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 1000px) {
+  .nav-big {
+    display: none;
+  }
+  .nav-small {
+    display: flex;
+  }
+}
+.navigation a.nav-active {
+  color: brown;
+}
+.navigation a.nav-active:nth-child(2) {
+  position: relative;
+  transform: scale(1.3);
+  color: #081ddb;
+}
+.navigation a.nav-active:nth-child(3) {
+  position: relative;
+  transform: scale(1.3);
+  color: #ff8101;
+}
+.navigation a.nav-active:nth-child(4) {
+  position: relative;
+  transform: scale(1.3);
+  color: #929292;
+}
+.navigation a.nav-active:nth-child(5) {
+  position: relative;
+  transform: scale(1.3);
+  color: #a8a896;
+}
+.navigation a.nav-active:nth-child(6) {
+  position: relative;
+  transform: scale(1.3);
+  color: #fc5203;
+}
+.navigation a.nav-active:nth-child(7) {
+  position: relative;
+  transform: scale(1.3);
+  color: #fc8803;
+}
+.navigation a.nav-active:nth-child(8) {
+  position: relative;
+  transform: scale(1.3);
+  color: #13b6a3;
+}
+.navigation a.nav-active:nth-child(9) {
+  position: relative;
+  transform: scale(1.3);
+  color: #5a08db;
+}
+.navigation a.nav-active:nth-child(10) {
+  position: relative;
+  transform: scale(1.3);
+  color: #968670;
+}
+.navigation a.nav-active:nth-child(11) {
+  position: relative;
+  transform: scale(1.3);
+  color: #968670;
+}
+.navigation a.nav-active:nth-child(12) {
+  position: relative;
+  transform: scale(1.3);
+  color: #c2b381;
+}
