@@ -18,6 +18,7 @@ body {
   }
   @media (max-width: 600px) {
     height: 120vw;
+    overflow-x: hidden;
   }
 }
 .swiper {
@@ -446,7 +447,12 @@ header {
 }
 .footerHome {
   color: #ff8101;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   margin-top: 5rem;
+
+  @media (max-width: 600px) {
+    font-size: 0.9rem;
+  }
 }
