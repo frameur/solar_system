@@ -428,19 +428,25 @@ header {
   border: 1px solid black;
 }
 .footer {
-  color: white;
+  color: #ff8101;
   height: 6rem;
   display: flex;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   justify-content: center;
   padding: 0 20px;
   align-items: center;
-  background-color: #000000e0;
+  background-color: #00000090;
   font-style: italic;
+
+  @media (max-width: 600px) {
+    font-size: 0.9rem;
+    background-color: #00000090;
+  }
 }
 .footerHome {
+  color: #ff8101;
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
