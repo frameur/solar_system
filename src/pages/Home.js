@@ -21,7 +21,7 @@ const Home = () => {
         exit={{ x: window.innerWidth, transition: { duration: 0.8 } }}
       >
         <div className="showcase">
-          <div className="overlayHome">
+          <div className="overlay">
             <div className="main-text">
               <h1>Le système Solaire</h1>
               <motion.p>
