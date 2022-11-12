@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/solar_system.png'
 import { Squeeze as Hamburger } from 'hamburger-react'
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
