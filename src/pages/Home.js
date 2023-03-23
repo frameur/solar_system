@@ -46,7 +46,7 @@ const Home = () => {
               </motion.p>
               <Slideswipper />
               <p className="footerHome">
-                François Copyright © {new Date().getFullYear()}{' '}
+                François Copyright © 2022 - {new Date().getFullYear()}{' '}
               </p>
             </div>
           </div>
